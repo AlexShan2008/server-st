@@ -1,9 +1,13 @@
 {
   "name": "server-st",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "main": "./lib/server-st.js",
   "license": "MIT",
-  "author": "AlexShan <shantong.sir@gmail.com> (http://alexshan.com)",
+  "author": {
+    "name": "AlexShan",
+    "email": "shantong.sir@gmail.com",
+    "url": "http://alexshan.com"
+  },
   "bin": {
     "server-st": "./bin/server-st.js"
   },
@@ -16,20 +20,14 @@
     "yargs": "^11.0.0"
   },
   "description": "A simple command-line static server",
-  "directories": {
-    "lib": "lib"
-  },
-  "devDependencies": {},
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "homepage": "https://github.com/AlexShan2008/server-st",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AlexShan2008/server-st.git"
+    "url": "git://github.com/AlexShan2008/server-st"
   },
-  "keywords": [],
-  "bugs": {
-    "url": "https://github.com/AlexShan2008/server-st/issues"
-  },
-  "homepage": "https://github.com/AlexShan2008/server-st#readme"
+  "keywords": [
+    "static server",
+    "cli",
+    "command"
+  ]
 }
